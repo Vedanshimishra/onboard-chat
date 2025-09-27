@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // AI Chat specific colors
+        chat: {
+          background: "hsl(var(--chat-background))",
+          header: "hsl(var(--chat-header))",
+          "header-foreground": "hsl(var(--chat-header-foreground))",
+        },
+        message: {
+          user: "hsl(var(--user-message))",
+          "user-foreground": "hsl(var(--user-message-foreground))",
+          ai: "hsl(var(--ai-message))",
+          "ai-foreground": "hsl(var(--ai-message-foreground))",
+        },
+        code: {
+          background: "hsl(var(--code-background))",
+          foreground: "hsl(var(--code-foreground))",
+          border: "hsl(var(--code-border))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
